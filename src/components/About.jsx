@@ -78,7 +78,6 @@ description: "Completed higher secondary education with a focus on core academic
             I love creating efficient, scalable, and user-friendly applications.
           </p>
         </motion.div>
-
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -111,7 +110,6 @@ description: "Completed higher secondary education with a focus on core academic
           ))}
         </motion.div>
 
-        {/* Education Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

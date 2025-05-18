@@ -9,11 +9,13 @@ const Hero = () => {
     { icon: <FaTwitter size={24} />, url: 'https://x.com/parveen_015?t=bFNbzsvxHK5J2-bLIR1zXw&s=09 ' },
   ];
 
+  const mailtoLink = `mailto:parveenchouhan082@gmail.com?subject=Hiring%20Inquiry&body=Hi%20Parveen,%0A%0AWe%20want%20to%20hire%20you.%20Please%20contact%20us%20as%20soon%20as%20possible.%0A%0ABest%20Regards`;
+
   const featuredSkills = [
     { icon: <FaCode size={24} />, name: 'Frontend', description: 'React, Next.js, TypeScript , Tailwind CSS, wordpress' },
     { icon: <FaServer size={24} />, name: 'Backend', description: 'Node.js, Express, Python' },
     { icon: <FaDatabase size={24} />, name: 'Database', description: 'MongoDB, Mysql' },
-    { icon: <FaTools size={24} />, name: 'Tools', description: 'Git, AWS , Hosting' },
+    { icon: <FaTools size={24} />, name: 'Tools', description: 'Git, AWS , Hostiger' },
   ];
 
   const stats = [
@@ -77,13 +79,13 @@ const Hero = () => {
               View My Work
             </motion.a>
             <motion.a
-              href="/contact"
-              className="btn bg-secondary/10"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Contact Me
-            </motion.a>
+      href={mailtoLink}
+      className="btn bg-secondary/10"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    >
+      Hire Me
+    </motion.a>
           </motion.div>
 
           <motion.div
