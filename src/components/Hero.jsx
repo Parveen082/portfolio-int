@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FaCode, FaServer, FaDatabase, FaTools } from 'react-icons/fa';
 
 const Hero = () => {
   const socialLinks = [
-    { icon: <FaGithub size={24} />, url: 'https://github.com/Parveen082' },
+    { icon: <FaWhatsapp size={24} />, url: 'https://wa.me/9729073920' },
     { icon: <FaLinkedin size={24} />, url: 'https://www.linkedin.com/in/parveen-chouhan-19a770301/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B5I6voqjdRw2Owzwsv%2BcGAQ%3D%3D' },
     { icon: <FaTwitter size={24} />, url: 'https://x.com/parveen_015?t=bFNbzsvxHK5J2-bLIR1zXw&s=09 ' },
   ];
@@ -21,7 +21,7 @@ const Hero = () => {
   const stats = [
     { number: '1+', label: 'Years Experience' },
     { number: '8+', label: 'Projects Completed' },
-    { number: '10+', label: 'Happy Clients' },
+    { number: '5+', label: 'Happy Clients' },
   ];
 
   return (

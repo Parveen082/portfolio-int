@@ -27,17 +27,15 @@ const Contact = () => {
         </motion.h2>
 
         <div className="flex flex-col items-center gap-8 mt-8">
-          {/* Social Media Links */}
           <div className="flex gap-8">
             {socialMediaLinks.map((item, index) => (
               <motion.a
                 key={index}
                 href={item.link}
-                target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, rotate: 10 }}
                 whileTap={{ scale: 0.9 }}
-                className="text-secondary hover:text-primary transition-all"
+                className="text-secondary hover:text-blue transition-all"
               >
                 {item.icon}
               </motion.a>
@@ -52,7 +50,7 @@ const Contact = () => {
                 href={item.link}
                 whileHover={{ scale: 1.2, rotate: -10 }}
                 whileTap={{ scale: 0.9 }}
-                className="text-secondary hover:text-primary transition-all"
+                className="text-secondary hover:text-blue transition-all"
               >
                 {item.icon}
               </motion.a>
