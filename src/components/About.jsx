@@ -6,7 +6,7 @@ const About = () => {
     {
       category: 'Frontend',
       icon: <FaCode size={24} />,
-      items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML/CSS', 'Wordpress']
+      items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML','CSS', 'Wordpress']
     },
     {
       category: 'Backend',

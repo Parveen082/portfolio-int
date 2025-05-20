@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import {  FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FaCode, FaServer, FaDatabase, FaTools } from 'react-icons/fa';
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
     { icon: <FaCode size={24} />, name: 'Frontend', description: 'React, Next.js, TypeScript , Tailwind CSS, wordpress' },
     { icon: <FaServer size={24} />, name: 'Backend', description: 'Node.js, Express, Python' },
     { icon: <FaDatabase size={24} />, name: 'Database', description: 'MongoDB, Mysql' },
-    { icon: <FaTools size={24} />, name: 'Tools', description: 'Git, AWS , Hostiger' },
+    { icon: <FaTools size={24} />, name: 'Tools', description: 'Git, AWS , Hostinger' },
   ];
 
   const stats = [
